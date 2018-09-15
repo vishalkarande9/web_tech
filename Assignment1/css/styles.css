@@ -1,0 +1,174 @@
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background:#35424a;
+    color: #ffffff;
+    padding-top: 1.5%;
+    min-height: 70px;
+    border-bottom: #f4f4f4 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+header #header_title{
+    float: left;
+}
+
+header #header_title h1{
+    margin: 0%;
+}
+
+header nav{
+    float: right;
+    margin-top: 3%;
+
+}
+
+header .highlight , header .current a{
+    color: #e8491d;
+    font:bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight:bold;
+}
+
+#showcase{
+    min-height: 400px;
+    background-color:white;
+}
+
+#showcase-skill{
+    min-height: 400px;
+    background-color: white;
+}
+
+section img{
+    float: left;
+    padding: 3% 0% 3% 0%;
+}
+
+section .card{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+section  .testimonial {
+    display: flex;
+    align-items: center;
+    margin: 2rem 1rem;
+  }
+
+
+
+section  .about_me {
+    margin-left: 3rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+    position: relative; 
+    text-align: justify;
+    color: #35424a
+  }
+
+footer{
+    padding: 1%;
+    margin-top: 0.2%;
+    background-color:#35424a;
+    color: #ffffff;
+}  
+
+footer .contact-details_container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
+section  .testimonial_education {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    height: 100%;
+  } 
+
+  section .card_education {
+      display: flex;
+      flex-direction: row;
+  }
+
+  section .img_class {
+    display: flex;
+    justify-content: flex-start;
+}
+
+  section .uni_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .project_container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+section .project_card{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+section .h1_style{
+    margin-bottom: 0%;
+    color: black;
+}
+
+section .h5_style{
+    margin: 0%;
+    color:darkgray}
+
+section .p_style{
+    text-align: justify;
+    color: #35424a
+}
+
+.list-inline list-icons{
+    font-size: 50px;
+}
