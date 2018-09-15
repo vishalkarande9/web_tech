@@ -1,0 +1,5 @@
+Hi this Vishal Karande . I have created a personal website using HTML , CSS and I have also added javascript to it. While creating this website following are the challenges that I faced:
+1) Designing the website layout was challenging as there was no UI/UX provided.
+2) css was the toughest part. As i had to inspect and make changes to the site.
+
+Number of hours logged on this project is approximately 10-12 hours.
