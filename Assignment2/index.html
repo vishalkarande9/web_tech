@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<meta name= viewport content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+
+</head>
+<body>
+         <header>
+             <nav>
+                <div class="row clearfix">
+                    <img src="./img/logo9.png" alt="photo" class="logo">
+                    <ul class="main-nav animated slideInDown" id="check-class">
+                        <li><a href="home.html">About Me</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="project.html">Project</a></li>
+                        <li><a href="skills.html">Skills</a></li>  
+                    </ul>
+                    <a href="#" class="mobile-icon"  onclick="slideshow()"><i class="fa fa-bars"></i></a>    
+                </div>
+            </nav> 
+            
+            <div class="main-content-header">
+            <h1>Welcome to my Website<br><span class="colorchange">Mean Stack Developer</span><br>
+            MEAN is an acronym for MongoDB, ExpressJS, AngularJS and Node.js</h1>
+            <a href="#" class="btn btn-full" onclick="showReference()">Refrences</a>
+            <a href="#" class="btn btn-nav" onclick="showStack()">Stack Used</a>
+            </div>
+         </header>
+
+         
+  
+
+    
+
+<script type="text/javascript">
+		
+    function slideshow(){
+         var x = document.getElementById('check-class');
+         if(x.style.display === "none"){
+             x.style.display="block";
+         }else{
+             x.style.display="none";
+         }
+    }	
+
+    function showReference(){
+        alert("Refrences used are w3schools and getbootstrap.com");
+    } 
+    
+    function showStack(){
+        alert("Stack used HTML, CSS, Bootstrap, JavaScript");
+    } 
+    
+
+</script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
