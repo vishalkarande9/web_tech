@@ -1,0 +1,8 @@
+Hi this Vishal Karande . I have created a personal website using HTML , CSS , Bootstrap and I have also added javascript to it.
+While creating this website following are the challenges that I faced:
+1) Designing the smart document was a challenge , I used media queries for that page instead of bootstrap.
+2) Adding bootstrap to the other pages was difficult as i previously used css and had to redisn the entire website.
+
+Number of hours logged on this project is approximately 12-15 hours.
+
+I learned how to make websites using bootstrap and how to manupulate the dom and make the website more interactive using javascript.

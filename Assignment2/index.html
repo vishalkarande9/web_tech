@@ -27,22 +27,19 @@
             </nav> 
             
             <div class="main-content-header">
-            <h1>Welcome to my Website<br><span class="colorchange">Mean Stack Developer</span><br>
+            <h1 id="text">Welcome to my Website<br><span class="colorchange">Mean Stack Developer</span><br>
             MEAN is an acronym for MongoDB, ExpressJS, AngularJS and Node.js</h1>
-            <a href="#" class="btn btn-full" onclick="showReference()">Refrences</a>
+            <h1 id="stack">Stack Used is HTML, CSS, Bootstrap and JavaScript</h1>
+            <a href="#" class="btn btn-full" onclick="changeTextColor()">Change Color</a>
             <a href="#" class="btn btn-nav" onclick="showStack()">Stack Used</a>
             </div>
          </header>
-
-         
   
-
-    
 
 <script type="text/javascript">
 		
     function slideshow(){
-         var x = document.getElementById('check-class');
+         let x = document.getElementById('check-class');
          if(x.style.display === "none"){
              x.style.display="block";
          }else{
@@ -50,12 +47,30 @@
          }
     }	
 
-    function showReference(){
-        alert("Refrences used are w3schools and getbootstrap.com");
-    } 
+    function changeTextColor(){
+
+        let a = document.getElementById('text');
+        if(a.style.color== "red"){
+            a.style.color ="green";
+        } else {
+        a.style.color ="red";
+        }
+
+        let b = document.getElementById('stack');
+        if(b.style.color== "red"){
+            b.style.color ="green";
+        } else {
+        b.style.color ="red";
+        }
+        } 
     
     function showStack(){
-        alert("Stack used HTML, CSS, Bootstrap, JavaScript");
+       // alert("Stack used HTML, CSS, Bootstrap, JavaScript");
+       let a = document.getElementById('stack');
+       let b = document.getElementById('text');
+        b.style.display="none";
+        a.style.display="block"; 
+        
     } 
     
 
