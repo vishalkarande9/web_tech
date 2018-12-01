@@ -1,0 +1,7 @@
+Hi this Vishal Karande . I have created a mcq questionare app like quizup using Angularjs  , Bootstrap, Expreesjs, Mongodb .
+While creating this website following are the challenges that I faced:
+1) Db Connection to backend using express.js.
+
+Number of hours logged on this project is approximately 15-20 hours.
+
+I learned how to make websites using Js framework ,bootstrap and how to connect to db .

@@ -1,0 +1,22 @@
+<ul>
+    <li ng-repeat="user in app.users">
+        {{user.email}}
+    </li>
+</ul>
+<label>
+    Username: <input type="text" name="username" ng-model="app.username">
+</label>
+<label>
+    Email <input type="text" name="email" ng-model="app.email">
+</label>
+
+<label>
+    Password <input type="password" name="password" ng-model="app.password">
+</label>
+<button ng-click="app.register(app.username,app.email,app.password)">Register</button>
+
+<button ng-click="app.login(app.username,app.password)">Login</button>
+
+<button ng-click="app.profile()">Profile</button>
+
+<h1>{{app.token}}</h1>
